@@ -1,0 +1,26 @@
+body {
+    
+    }  
+
+    .top {
+
+    }
+    
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .right-links {
+                display: flex;
+            }
+
+    .content {
+        
+    }
+
+    
+
+
+
