@@ -1,6 +1,9 @@
 body {
     
-    }  
+}
+    ul {
+        list-style-type: none;
+    }
 
     .top {
 
@@ -14,13 +17,19 @@ body {
 
             .right-links {
                 display: flex;
+                justify-content: right;
+            }
+
+            .left-links {
+                font-weight: bold;
+                justify-content: left;
             }
 
     .content {
         
     }
 
-    
+
 
 
 
