@@ -1,33 +1,34 @@
 body {
     
 }
-    ul {
-        list-style-type: none;
+
+    .column {
+        width: 33.33%;
     }
-
-    .top {
-
-    }
-    
-        .header {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-            .right-links {
-                display: flex;
-                justify-content: right;
-            }
-
-            .left-links {
-                font-weight: bold;
-                justify-content: left;
-            }
-
-    .content {
         
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+    .right-links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .right-link {
+        display: flex;
+        justify-content: right;
+        padding: 8px;
+    }
+
+    .left-links {
+        font-weight: bold;
+        justify-content: left;
+    }
+
+    
 
 
 
