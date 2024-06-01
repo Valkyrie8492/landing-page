@@ -10,25 +10,59 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #1f2937;
     }
 
     .right-links {
         display: flex;
         flex-direction: row;
+        color: #f9faf8;
     }
 
     .right-link {
         display: flex;
         justify-content: right;
         padding: 8px;
+        color: #f9faf8;
     }
 
     .left-links {
         font-weight: bold;
         justify-content: left;
+        color: #f9faf8;
+        font-size: 24px;
     }
 
-    
+    .title {
+        font-weight: extra bold;
+        color: #f9faf8;
+        font-size: 48px;
+    }
+
+    .top {
+        background-color: #1f2937;
+        color: #f9faf8;
+    }
+
+    .block-2 {
+        background-color: #e5e7eb;
+    }
+
+    .footer {
+        background-color: #1f2937;
+        color: #f9faf8;
+    }
+
+    .quote {
+        font-size: 36px;
+        color: #1f2937;
+        font-style: light italic;
+    }
+
+button {
+    background-color: #3882f6;
+}
+
 
 
 
