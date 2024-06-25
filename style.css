@@ -1,9 +1,13 @@
 body {
-    
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 
     .column {
         width: 33.33%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
     }
         
     .header {
@@ -12,6 +16,8 @@ body {
         align-items: center;
         background-color: #1f2937;
     }
+
+    
 
     .right-links {
         display: flex;
@@ -44,23 +50,89 @@ body {
         color: #f9faf8;
     }
 
+    .block-1 {
+        padding-top: 24px;
+        padding-left: 64px;
+        padding-right: 64px;
+        padding-bottom: 96px;
+        background-color: #f9faf8;
+    }
+    
+    .subtitle {
+        font-weight: bolder;
+        text-align: center;
+        font-size: 24px;
+        padding-bottom: 36px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .card {
+        width: 128px;
+    }
+
     .block-2 {
         background-color: #e5e7eb;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 96px;
+    }
+
+    .quote {
+        font-size: 24px;
+        color: #1f2937;
+        font-style: italic;
+        padding-bottom: 16px;
+    }
+
+    .attribution {
+        font-weight: bold;
+        text-align: right;
+        color: #1f2937;
+    }
+
+    .block-3 {
+        padding: 32px;
+        background-color: #f9faf8;
+    }
+    
+    .box {
+        background-color: #3882f6;
+        border-radius: 4px;
+        display: flex;
+        padding: 32px;
+        padding-left: 64px;
+        padding-right: 64px;
+        color: #f9faf8;
+        justify-content: space-between;
+    }
+
+    .text {
+        font-weight: bold;
     }
 
     .footer {
         background-color: #1f2937;
         color: #f9faf8;
-    }
-
-    .quote {
-        font-size: 36px;
-        color: #1f2937;
-        font-style: light italic;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+        font-size: 12px;
     }
 
 button {
     background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 
