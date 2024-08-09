@@ -18,26 +18,38 @@ body {
         background-color: #1f2937;
         padding-left: 96px;
         padding-right: 96px;
+        padding-top: 8px;
     }
 
     .header-content {
         display: flex;
         margin: 96px;
         justify-content: space-between;
+        flex: 1;
     }
 
     .content-right {
         font-size: 12px;
         color: #e5e7eb;
-        text-align: center;
-        padding: 48px;
+        justify-content: center;
+        /* padding: 48px; */
         background-color: lightslategrey;
+        flex: 1;
+        min-width: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .content-left {
+        flex: 1;
+        min-width: 0;
     }
 
     .right-links {
         display: flex;
         flex-direction: row;
         color: #f9faf8;
+        font-size: 10px;
     }
 
     .right-link {
