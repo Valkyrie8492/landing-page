@@ -59,17 +59,21 @@ body {
         color: #f9faf8;
     }
 
-    .left-links {
-        font-weight: bold;
+    .left-link {
+        font-weight: bolder;
         justify-content: left;
         color: #f9faf8;
         font-size: 24px;
     }
 
     .title {
-        font-weight: extra bold;
+        font-weight: bolder;
         color: #f9faf8;
-        font-size: 42px;
+        font-size: 38px;
+    }
+
+    .top-subtext {
+        font-size: 12px;
     }
 
     .top {
@@ -84,7 +88,7 @@ body {
         padding-bottom: 96px;
         background-color: #f9faf8;
     }
-    
+
     .subtitle {
         font-weight: bolder;
         text-align: center;
@@ -94,13 +98,23 @@ body {
 
     .cards {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         text-align: center;
         font-size: 12px;
     }
 
     .card {
         width: 128px;
+        justify-content: center;
+    }
+
+    .square {
+        border: 3px solid #3882f6;
+        border-radius: 12px;
+        background-color: #f9faf8;
+        width: 96px;
+        height: 96px;
+        margin-left: 13px;
     }
 
     .block-2 {
@@ -116,6 +130,8 @@ body {
         color: #1f2937;
         font-style: italic;
         padding-bottom: 16px;
+        padding-left: 96px;
+        padding-right: 72px;
     }
 
     .attribution {
@@ -166,6 +182,10 @@ button {
     border: 1px, solid, #f9faf8;
     border-color: #f9faf8;
     width: 96px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 8px;
 }
 
 #borderless-button {
